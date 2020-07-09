@@ -13,23 +13,25 @@ h1{
 }
 p{
     border: 3px solid black;
-    background-image:  url(https://img.pngio.com/pizza-cheese-food-transparent-png-image-clipart-free-download-cheese-pizza-png-900_580.jpg);
     background-repeat: none ;
     background-position-x: center;
     background-position-y: center;
-    height: 150px;
     margin-right: auto;
     margin-left: auto;
     font-family: Helvetica;
     color: #000;
     font-weight: 600;
     text-transform: capitalize;
+    background: #557c3e;
+    font-size: 2vw;
+    height: 15vw;
     
 }
 #header-nav{
     background-color: #f6b319;
     border: 0;
     border-radius: 0%;
+    margin-bottom: 30px;
 }
 #logo-img {
     background: url(bootstrap-4.5.0-dist/js/1024px-Coloured_Voronoi_2D.svg.png) no-repeat;
@@ -40,6 +42,7 @@ p{
     border: #000 solid 3px;
     padding: 0px;
 }
+
 .navbar-brand {
     padding-top: 15px;
     margin-left: 50px;
@@ -59,6 +62,8 @@ p{
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
+    font-size: 1.2em ;
+    text-shadow: ;
 }
 .navbar-brand h2{
     color: #000;
@@ -75,8 +80,7 @@ p{
     overflow: auto;    
     line-height: 200%;
     width: 12.5em;
-    height: 3em;
-    
+    height: 3em;   
 }
 .icon-bar a{
     margin-left: .5em;
@@ -90,10 +94,48 @@ p{
     font-size: 30px;
     margin-top: 5px;
 }
-#main-content .jumbotron{
+ .jumbotrain {
     text-align: center;
-    padding: 0px;
-    margin: 0px;
-    
+    margin-bottom: 30px;
 }
-
+#dafooter {
+    margin-top: 15px;
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #f6b319;
+    color: #557c3e;
+    padding-top: 15px;
+    text-shadow: 1px 1px 1px black;
+    padding-bottom: 10px;
+}
+.dafooter {
+    border: #61122f double 10px;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+.category-title {
+    position: relative;
+    border: solid 2px #3f0C1F;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+}
+.category-title span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .75;
+}
+.category-title:hover{
+    box-shadow: 0px 1px 5px 1px #cccccc;
+}
