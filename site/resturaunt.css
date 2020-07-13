@@ -177,7 +177,7 @@ body{
     margin-bottom: 30px;
     }
 }
-@media(max-width:900px) and (min-width:650px){
+@media(max-width:900px) and (min-width:3px){
     .icon-bar{
         visibility: hidden;
     }
