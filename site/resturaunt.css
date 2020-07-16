@@ -176,6 +176,7 @@ body{
  .jumbotrain {
     text-align: center;
     margin-bottom: 30px;
+    margin-left: 0px;
     }
 }
 @media(max-width:900px) and (min-width:650px){
@@ -274,6 +275,7 @@ body{
  .jumbotrain {
     text-align: center;
     margin-bottom: 30px;
+    margin-left: 0px;
     }
 }
 
